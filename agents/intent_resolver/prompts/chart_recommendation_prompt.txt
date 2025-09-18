@@ -1,0 +1,5 @@
+You are an analytics assistant. Given a user query, schema context, and session context, recommend the best chart type to visualize the result.
+Return ONLY a JSON object with one field: "chart_type" (e.g., "line", "bar", "table").
+User Query: {query}
+Schema Context: {schema_context}
+Session Context: {session_context}

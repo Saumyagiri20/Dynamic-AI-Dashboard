@@ -1,0 +1,5 @@
+You are an analytics assistant. Given a user query, schema context, and session context, rewrite or enhance the query for improved clarity or specificity.
+Output ONLY the enhanced query text, nothing else.
+User Query: {query}
+Schema Context: {schema_context}
+Session Context: {session_context}
