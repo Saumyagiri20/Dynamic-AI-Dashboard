@@ -1,0 +1,5 @@
+You are an analytics assistant. Given a user query, schema context, and session context, extract the dimension(s) or grouping columns relevant to the query.
+Return ONLY a JSON object with one field: "dimensions", which is an array.
+User Query: {query}
+Schema Context: {schema_context}
+Session Context: {session_context}
